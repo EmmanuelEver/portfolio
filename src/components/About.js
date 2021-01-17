@@ -114,6 +114,10 @@ const HeaderText = styled.h2`
 	letter-spacing: 1px;
 	color:#313037;
 	margin-bottom: 30px;
+
+	@media (max-width:767px){
+		margin-top: 30px;
+	}
 `
 
 const AboutText = styled.p`

@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import SEO from "../components/seo"
 import ProjectList from "../components/Projects"
 import ogImage from "../images/image-works.png"
@@ -6,7 +6,12 @@ import ContactSection from "../components/ContactBanner"
 import ProjectsHero from "../components/ProjectsHero"
 
 const Projects = () => {
-	
+
+	useEffect(() => {
+
+		return () => {document.getElementById("toggle-menu").checked = false}
+	}, [])
+
 	return (
 	<>
 	  <SEO 

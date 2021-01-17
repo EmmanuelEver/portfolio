@@ -50,11 +50,9 @@ const Hero = () => {
 }
 
 const HeroContainer = styled.section`
-	display: flex;
 	width: 100%;
 	max-width: 1440px;
 	min-height: 450px;
-	padding: 0 5% 50px;
 	margin: 0 auto;
 
 	@media (max-width: 767px){
@@ -119,13 +117,14 @@ const Content = styled.div`
 	flex-direction: column;
 	align-items: flex-start;
 
-	@media (max-width: 767px){
-		padding: 0 37px;
-		align-items: center;
-	}
 	@media (max-width: 1024px){
 		width: 100%;
 		padding: 0 100px;
+		align-items: center;
+	}
+
+	@media (max-width: 767px){
+		padding: 0 37px;
 		align-items: center;
 	}
 
@@ -153,7 +152,7 @@ const CtaContainer = styled.div`
 `
 
 
-const ButtonCta = styled(Link)`
+const ButtonCta = styled.a`
     background-color: #203A4B;
     border-radius: 5px;
     color: #FAFAFA;

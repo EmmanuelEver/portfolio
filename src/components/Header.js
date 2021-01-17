@@ -4,10 +4,7 @@ import { Link } from 'gatsby'
 import logo from '../images/logo.png'
 import { motion } from "framer-motion"
 
-const linkVariants = {
-	hover: { color: "#64B6A5", scale: 1.3},
-	transition: { type: "spring", stiffness: 120 }
-}
+
 
 const Header = () => {
 	return(

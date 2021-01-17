@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import SEO from "../components/seo"
 import ogImage from "../images/image-contact.png"
 import styled from "styled-components"
@@ -7,6 +7,13 @@ import ContactMe from "../components/ContactMe"
 
 
 const Contact = () => {
+
+	useEffect(() => {
+
+		return () => {document.getElementById("toggle-menu").checked = false}
+  	}, [])
+
+
 	return(
 		<>
 			<SEO 

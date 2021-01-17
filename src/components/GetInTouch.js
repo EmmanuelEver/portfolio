@@ -62,7 +62,7 @@ const GitSection = styled.section`
 	padding: 100px 10%;
 
 	@media (max-width: 767px){
-		padding: 50px 37px;
+		padding: 0px 37px 50px 37px;
 	}
 `
 
