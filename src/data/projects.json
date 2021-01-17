@@ -1,0 +1,151 @@
+[
+   {
+      "title":"kraftora",
+      "code":"kraftora",
+      "data":{
+         "cardImage":"../images/projects/kraftora-fullpage.png",
+         "logo":"../images/kraftora-logo.png",
+         "siteUrl":"www.kraftora.com",
+         "status":"production",
+         "type":"commercial",
+         "demo":null,
+         "summary":"The first creative-to-consumer marketplace for digital products",
+         "description":"Kraftora will be the first creative-to-consumer marketplace for digital products resembling stationery in the paper world. It is developed under a NYC tech incubator and has four core team members. I am in charge of the front end development of the pre-launch landing page.",
+         "responsive":[
+            "mobile",
+            "tablet",
+            "desktop"
+         ],
+         "tools":[
+            "reactJs",
+            "CSS3"
+         ],
+         "role":"developer"
+      }
+   },
+   {
+      "title":"Pro Athletes Group",
+      "code":"pag",
+      "data":{
+         "cardImage":"../images/projects/pag-fullpage.png",
+         "logo":"../images/pag-logo.png",
+         "siteUrl":"www.proathletesgroup.com",
+         "status":"development",
+         "demo":"https://musing-dubinsky-b4f56d.netlify.app/",
+         "type":"commercial",
+         "summary":"Site of one of the services provided by Cornerstone Payment Systems.",
+         "description":"This website is for one of the services provided by Cornerstone Payment Systems.",
+         "responsive":[
+            "mobile",
+            "tablet",
+            "desktop"
+         ],
+         "tools":[
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+         ],
+         "role":"developer"
+      }
+   },
+   {
+      "title":"Salt Shaker Films",
+      "code":"ssf",
+      "data":{
+         "cardImage":"../images/projects/ssf-fullpage.png",
+         "logo":"../images/ssf-logo.png",
+         "siteUrl":null,
+         "status":"development",
+         "demo":"https://gallant-hopper-889b31.netlify.app/",
+         "type":"commercial",
+         "summary":"Site that creates and finances movies.",
+         "description":"Salt Shaker Films is a website that creates and finances movies that will uplift and inspire millions.",
+         "responsive":[
+            "mobile",
+            "tablet",
+            "desktop"
+         ],
+         "tools":[
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+         ],
+         "role":"developer"
+      }
+   },
+   {
+      "title":"Insure",
+      "code":"insure",
+      "data":{
+         "cardImage":"../images/projects/insure-fullpage.png",
+         "logo":"../images/insure-logo.png",
+         "siteUrl":null,
+         "status":null,
+         "demo":"https://stoic-leavitt-b034bb.netlify.app/",
+         "type":"personal",
+         "summary":"This Site is my submission to a coding challenge by frontendmentor.io",
+         "description":"Insure is a project I made as my submission to a coding challenge from frontendmentor.io",
+         "responsive":[
+            "mobile",
+            "tablet",
+            "desktop"
+         ],
+         "tools":[
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+         ],
+         "role":"developer"
+      }
+   },
+   {
+      "title":"To-Do-List App",
+      "code":"todo",
+      "data":{
+         "cardImage":"../images/projects/todo-responsive.png",
+         "logo":"../images/tla-logo.png",
+         "siteUrl":null,
+         "status":null,
+         "demo":"https://laughing-curran-3d4d25.netlify.app/",
+         "type":"personal",
+         "summary":"A simple app I made to enhance my skills in Javascript.",
+         "description":"This app is made only for me to practice my skills in vanilla javascript (no framework used)",
+         "responsive":[
+            "mobile",
+            "tablet",
+            "desktop"
+         ],
+         "tools":[
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+         ],
+         "role":"developer"
+      }
+   },
+   {
+      "title":"Rock-Paper-Scissor App",
+      "code":"rps",
+      "data":{
+         "cardImage":"../images/projects/rps-responsive.png",
+         "logo":"../images/rps-logo.png",
+         "siteUrl":null,
+         "status":null,
+         "demo":"https://hopeful-boyd-50c274.netlify.app/",
+         "type":"personal",
+         "summary":"A Rock-Paper-Scissor game build in vanilla Javascript.",
+         "description":"A simple Rock-Paper-Scissor game made with ReactJs",
+         "responsive":[
+            "mobile",
+            "tablet",
+            "desktop"
+         ],
+         "tools":[
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+         ],
+         "role":"developer"
+      }
+   }
+]
