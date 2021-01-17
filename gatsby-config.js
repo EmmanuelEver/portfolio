@@ -26,14 +26,5 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Emmanuel Telewik`,
-        short_name: `ever`,
-        start_url: `/`,
-        icon: `src/images/gatsby-icon.ico`, // This path is relative to the root of the site.
-      },
-    },
   ],
 }
