@@ -5,7 +5,7 @@
       "data":{
          "cardImage":"../images/projects/kraftora-fullpage.png",
          "logo":"../images/kraftora-logo.png",
-         "siteUrl":"www.kraftora.com",
+         "siteUrl":"https://www.kraftora.com",
          "status":"production",
          "type":"commercial",
          "demo":null,
@@ -29,7 +29,7 @@
       "data":{
          "cardImage":"../images/projects/pag-fullpage.png",
          "logo":"../images/pag-logo.png",
-         "siteUrl":"www.proathletesgroup.com",
+         "siteUrl":"https://proathletesgroup.com",
          "status":"development",
          "demo":"https://musing-dubinsky-b4f56d.netlify.app/",
          "type":"commercial",
@@ -54,7 +54,7 @@
       "data":{
          "cardImage":"../images/projects/ssf-fullpage.png",
          "logo":"../images/ssf-logo.png",
-         "siteUrl":null,
+         "siteUrl":"https://saltshakerfilms.com",
          "status":"development",
          "demo":"https://gallant-hopper-889b31.netlify.app/",
          "type":"commercial",
