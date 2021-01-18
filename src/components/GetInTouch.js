@@ -32,19 +32,19 @@ const GetInTouch = () => {
 							</ContentText>
 
 							<SocMedLinks>
-								<SocMedLink>
+								<SocMedLink href="https://www.facebook.com/1Shank1/">
 									<FaFacebook />
 								</SocMedLink>
-								<SocMedLink>
+								<SocMedLink  href="https://www.instagram.com/mr_shank2/">
 									<FaInstagram/>
 								</SocMedLink>
-								<SocMedLink>
-									<FaLinkedin />
+								<SocMedLink  href="https://www.linkedin.com/in/emmanuel-ever-telewik-9252ab18b/" >
+									<FaLinkedin/>
 								</SocMedLink>
-								<SocMedLink>
+								<SocMedLink href="https://github.com/EmmanuelEver">
 									<FaGithub/>
 								</SocMedLink>
-								<SocMedLink>
+								<SocMedLink href="mailto:everlopeztelewik@gmail.com">
 									<MdEmail/>
 								</SocMedLink>
 							</SocMedLinks>
@@ -108,8 +108,8 @@ const Content = styled.div`
 
 const ContentText = styled.p`
 	color:#33323D;
-	font-size: clamp(.8rem, 2vw, 1rem);
-	line-height: calc( clamp(.8rem, 2vw, 1rem) * 1.5);
+	font-size: clamp(.9rem, 2vw, 1rem);
+	line-height: calc( clamp(.9rem, 2vw, 1rem) * 1.5);
 	font-weight: 400;
 	margin-bottom: 30px;
 	opacity: .8;

@@ -33,13 +33,7 @@ const About = () => {
 							About Me
 						</HeaderText>
 						<AboutText>
-							I’m a junior web developer looking for freelance to partime jobs. 
-							I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. 
-							When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. 
-							I’m based in Philippines, but I’m happy working remotely and have experience in remote teams. 
-							When I’m not coding, you’ll find me outdoors. 
-							I love being out playing basketball and working out. 
-							I’d love you to check out my work.
+							I’m a web developer eager to collaborate with you on a freelance or part time basis. I am experienced in writing accessible and clean HTML ,CSS and Javascript code using best practices in modern web development. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in Philippines but I’m happy and comfortable working remotely. I have successful web development projects with teams scattered around the globe in multiple timezones. When I’m not coding, you’ll find me outdoors. I love being out playing basketball and working out. I’d love you to check out my portfolio of dynamic and mobile friendly websites.
 						</AboutText>
 
 						<LinkToPortfolio to="/projects">
@@ -122,8 +116,8 @@ const HeaderText = styled.h2`
 
 const AboutText = styled.p`
 	color: #929294;
-	font-size: clamp(.8rem, 2vw, 1rem);
-	line-height: calc( clamp(.8rem, 2vw, 1rem) * 1.5);
+	font-size: clamp(.9rem, 2vw, 1rem);
+	line-height: calc( clamp(.9rem, 2vw, 1rem) * 1.5);
 	font-weight: 400;
 `
 

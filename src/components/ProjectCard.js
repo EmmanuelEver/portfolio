@@ -27,7 +27,7 @@ const ProjectCard = ({title, data, code, images}) => {
 						<LinksContainer>
 							{
 							data.siteUrl && 
-								<LiveSiteUrl to={data.siteUrl}>
+								<LiveSiteUrl href={data.siteUrl}>
 									<WebIcon>
 										<FaGlobeAmericas />
 									</WebIcon>
@@ -36,7 +36,7 @@ const ProjectCard = ({title, data, code, images}) => {
 							}
 							{
 							data.demo && 
-								<LiveSiteUrl to={data.demo}>
+								<LiveSiteUrl href={data.demo}>
 									<LinkIcon>
 										<FaLink />
 									</LinkIcon>
