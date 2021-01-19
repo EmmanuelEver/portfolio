@@ -13,10 +13,14 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID,
-        head: true,
+        trackingIds: [
+          process.env.GA_TRACKING_ID,
+        ],
+        pluginConfig: {
+          head: true        
+        },
       },
     },
     `gatsby-plugin-react-helmet`,
