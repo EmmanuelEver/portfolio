@@ -78,7 +78,7 @@ const ProjectList = () => {
 const ProjectsSection = styled.section`
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 0 3%;
+	padding: 100px 3%;
 	
 	@media (max-width: 767px){
 		padding: 75px 27px;
